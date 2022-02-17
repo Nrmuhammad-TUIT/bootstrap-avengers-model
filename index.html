@@ -7,11 +7,12 @@
    <link rel="stylesheet" href="./bootstrap.css">
    
    <title>Avangers</title>
+   
 </head>
 <body>
    
    <div class="container">
-
+      
       <h2 class="h2 my-3 text-center">Movies catalog</h2>
       
       <div class="row my-2">
@@ -21,7 +22,7 @@
             <form action="" class="mb-5" >
                
                <input class="form-control py-1 ps-2" type="text" placeholder="ave"  >
-               <input class="form-control my-3 py-1 ps-2 " type="number" placeholder="5" >
+               <input class="form-control my-3 py-1 ps-2 " type="text" placeholder="5" >
                <select class="form-select mb-3 " aria-label="Default select example" >
                   <option selected>All</option>
                   <option value="1">One</option>
@@ -38,7 +39,7 @@
                
                <div class="d-grid gap-2 col-6 w-100">
                   
-                  <button class="btn btn-primary" type="button">search</button>
+                  <button class="btn btn-primary" type="submit">search</button>
                   
                </div>
                
@@ -87,23 +88,61 @@
             <div class="row mb-4">
                
                <div class="col-6"> 
-
+                  
                   <div class="border border-secondary">
-
+                     
                      <img src="./images/img-2570.jpg" width="415" height="300" alt="avengers image">
-                     <h3 class="h3 mt-3 ps-3">Avengers:Infinitity War</h3>
-   
+                     
+                     <div class=" ps-3"> 
+                        
+                        <h3 class="h3 mt-3 ">Avengers:Infinitity War</h3>
+                        
+                        <div class="d-flex my-2 ">
+                           
+                           <img class="me-1" src="./images/calendar-event-fill.svg" alt="calendar image">
+                           <time datetime="2018">2018</time>
+                           
+                        </div>
+                        
+                        <div class="d-flex my-3 ">
+                           
+                           <img class="me-1" src="./images/star_icon_30md2.svg" width="20" height="20" alt="star image">
+                           <span>8.7</span>
+                           
+                        </div>
+                        
+                        <div class="d-flex mb-3 ">
+                           
+                           <button class="btn btn-outline-primary">Watch trailer</button>
+                           <button class="btn btn-outline-info mx-3">More info</button>
+                           <button class="btn btn-outline-success">Bookmark</button>
+                           
+                        </div>
+                        
+                     </div> 
+                     
+                  </div>
+                  
+               </div>
+               
+               <div class="col-6">
+                  
+                  <div class="border border-secondary">
+                     
+                     <img src="./images/Thor.jpg" width="415" height="300" alt="thor image">
+                     <h3 class="h3 mt-3 ps-3">The Avengers</h3>
+                     
                      <div class="d-flex my-2 ps-3">
                         
                         <img class="me-1" src="./images/calendar-event-fill.svg" alt="calendar image">
-                        <time datetime="2018">2018</time>
+                        <time datetime="2018">2012</time>
                         
                      </div>
                      
                      <div class="d-flex my-3 ps-3">
                         
                         <img class="me-1" src="./images/star_icon_30md2.svg" width="20" height="20" alt="star image">
-                        <span>8.7</span>
+                        <span>8.1</span>
                         
                      </div>
                      
@@ -114,57 +153,23 @@
                         <button class="btn btn-outline-success">Bookmark</button>
                         
                      </div>
-                    
-
+                     
                   </div>
                   
                </div>
                
-               <div class="col-6">
-                  
-                  <div class="border border-secondary">
-
-                     <img src="./images/Thor.jpg" width="415" height="300" alt="thor image">
-                  <h3 class="h3 mt-3 ps-3">The Avengers</h3>
-
-                  <div class="d-flex my-2 ps-3">
-                     
-                     <img class="me-1" src="./images/calendar-event-fill.svg" alt="calendar image">
-                     <time datetime="2018">2012</time>
-                     
-                  </div>
-                  
-                  <div class="d-flex my-3 ps-3">
-                     
-                     <img class="me-1" src="./images/star_icon_30md2.svg" width="20" height="20" alt="star image">
-                     <span>8.1</span>
-                     
-                  </div>
-                  
-                  <div class="d-flex mb-3 ps-3">
-                     
-                     <button class="btn btn-outline-primary">Watch trailer</button>
-                     <button class="btn btn-outline-info mx-3">More info</button>
-                     <button class="btn btn-outline-success">Bookmark</button>
-                     
-                  </div>
-                  
-               </div>
-
-                  </div>
-               
-               </div>
-
+            </div>
+            
             <nav aria-label="...">
                <ul class="pagination pagination-sm justify-content-center">
-                 <li class="page-item active" aria-current="page">
-                   <span class="page-link">1</span>
-                 </li>
-                 <li class="page-item"><a class="page-link" href="#">2</a></li>
-                 <li class="page-item"><a class="page-link" href="#">3</a></li>
-                 <li class="page-item"><a class="page-link" href="#">4</a></li>
+                  <li class="page-item active" aria-current="page">
+                     <span class="page-link">1</span>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item"><a class="page-link" href="#">4</a></li>
                </ul>
-             </nav>
+            </nav>
             
          </div>
          
